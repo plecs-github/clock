@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Cyberverse";
+    src: url("cyberverse/Cyberverse Condensed.otf");
+}
+
+html {
+    background-color: rgb(116, 142, 153);
+    color: 139, 20, 20;
+    text-shadow: 4px 4px 6px rgb(255, 255, 255);
+    font-family: Cyberverse;
+    font-size: 100px;
+    letter-spacing: 12pt;
+    box-sizing: border-box;
+    }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100 vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    position: absolute;
+    width: 400px;
+}
